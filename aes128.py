@@ -1,18 +1,3 @@
-"""Tham module provides encrypting/decrypting according AES(128) standart.
-Based on Rijndael algorithm, AES uses 4 transformation for encrypting: SubSytes(), ShiftRows(),
-MixColumns() and AddRoundKey(). For decrypting it uses inverse functions of that fout.
-Detales you can read here:
-http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf
-or here:
-http://en.wikipedia.org/wiki/Advanced_Encryption_Standard
-or here:
-http://www.cs.bc.edu/~straubin/cs381-05/blockciphers/rijndael_ingles2004.swf
-or somewhere else.
-
-Comments rather won't help if don't read documentation of the algorithm.
-
-"""
-
 nb = 4  # number of coloumn of State (for AES = 4)
 nr = 10  # number of rounds ib ciper cycle (if nb = 4 nr = 10)
 nk = 4  # the key length (in 32-bit words)
